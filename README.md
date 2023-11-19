@@ -1,5 +1,5 @@
 ## 提出クエスト実行ファイル
-clone後、[blackjack_main](blackjack_main)を実行
+clone後、[blackjack_main](./blackjack_main.rb)を実行
 
 ## 変更点
 ### 11/19
