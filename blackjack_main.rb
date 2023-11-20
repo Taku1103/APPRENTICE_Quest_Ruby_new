@@ -2,10 +2,10 @@
 
 require_relative 'game_manager'
 require_relative 'bj_player'
+require_relative 'deck'
 require_relative 'dealer'
 require_relative 'player'
 require_relative 'cpu'
-require_relative 'deck'
 
 # 実行部(メインファイルなら以下実行)-----------------------------------------------------------------------
 if __FILE__ == $PROGRAM_NAME
@@ -24,6 +24,7 @@ if __FILE__ == $PROGRAM_NAME
   # MainLoop_start-----------------------------------------------------------------------
   loop do
     bj_game_manager.start_log
+
     # インスタンス変数一部 ループ開始時初期化
     deck_obj.loop_init
     player.loop_init
